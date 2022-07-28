@@ -38,7 +38,7 @@ class Solution {
         }
         
         //HERE WE ARE TAKING ONE ELEMENT OF THE ARRAY 
-        //AND NOT TAKING THE ELEMENT AND SOTRING IT IN 2D ARRAY t[][]
+        //AND NOT TAKING THE ELEMENT AND STORING IT IN 2D ARRAY t[][]
         for(int i =1; i<n+1; i++)
         {
             for(int j = 1; j<w+1; j++)
