@@ -2,7 +2,7 @@ GFG QUESTION LINK : https://practice.geeksforgeeks.org/problems/palindromic-pati
 
 STEPS -
     1/- BASE CASE
-            -- IS len(str) IS 0, 1 OR str ISPALINDROME 
+            -- IF len(str) IS 0, 1 OR str ISPALINDROME 
                       ---RETURN 0
     2/- CALCULATE CALL SOLVE Fxn FOR
         int temp = 1 + solve(str, i, k) + solve(str, k+1, j);
