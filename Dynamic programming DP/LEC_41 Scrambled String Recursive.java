@@ -28,7 +28,7 @@ class Solution {
             if( (isScramble(s1.substring(0,i), s2.substring(n-i,n))  && isScramble(s1.substring(i,n), s2.substring(0,n-i)))
                                       ||
                 (isScramble(s1.substring(0,i), s2.substring(0,i)) &&  isScramble(s1.substring(i,n), s2.substring(i,n)))
-			  )
+	      )
             {
                 return true;
             }
